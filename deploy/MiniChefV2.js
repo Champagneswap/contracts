@@ -1,4 +1,4 @@
-const { CHAM_ADDRESS } = require("@champagneswap/core-sdk");
+const { CHAM_ADDRESS } = require("@sushiswap/core-sdk");
 
 module.exports = async function ({ ethers, deployments, getNamedAccounts }) {
   const { deploy } = deployments;
